@@ -4,9 +4,182 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>K</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Kast is Watch Parties Made Easy</title>
   </head>
   <body>
-    <h1>this is a test</h1>
+    <header class="hero">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <img
+            class="fas"
+            src="./assets/kast-logo-horizontal-color-white.svg"
+            alt="wired logo"
+            wide="201"
+          />
+        </h1>
+        <ul>
+          <li>
+            <a href="#about"
+              >About <i class="fa fa-angle-down" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#help"
+              >Help <i class="fa fa-angle-down" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#community"
+              >Community <i class="fa fa-angle-down" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#premium">Premium</a>
+          </li>
+          <li>
+            <a href="#openKast" class="btn-outline">OPEN KAST</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <span class="laptop"
+          ><img src="assets/laptop-large.png" alt="laptop"
+        /></span>
+        <h1>Watch parties made easy.</h1>
+        <p>
+          Watch whatever you want with friends online: movies, TV shows, you
+          name it. Share your screen and camera or launch content directly from
+          Kast TV in your watch parties. Join millions of kasters today!
+        </p>
+        <a herf="#about" class="btn">OPEN KAST</a>
+      </div>
+    </header>
+    <main>
+      <!--- ABOUT ICONS-->
+      <section id="about" class="icons bg-light">
+        <div class="content2"><h1>Featured in</h1></div>
+        <div class="flex-items">
+          <div>
+            <img class="fas" src="./assets/wired-logo.svg" alt="wired logo" />
+            <!-- <div>
+              <h3>text and stuff</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div> -->
+          </div>
+          <div>
+            <img class="fas" src="./assets/nerdist-logo.svg" alt="wired logo" />
+          </div>
+          <div>
+            <img
+              class="fas"
+              src="./assets/yahoo-finance-logo.svg"
+              alt="wired logo"
+            />
+          </div>
+        </div>
+        <div class="flex-items">
+          <div>
+            <img
+              class="fas"
+              src="./assets/evening-standard-logo.svg"
+              alt="wired logo"
+            />
+          </div>
+          <div>
+            <img class="fas" src="./assets/bbc-logo.svg" alt="BB" />
+          </div>
+          <div>
+            <img
+              class="fas"
+              src="./assets/daily-mail-logo.svg"
+              alt="daily mail"
+            />
+          </div>
+        </div>
+        <div class="content2">
+          <h3>
+            "Kast has probably never been more relevnt — or necessary — than it
+            is right now."
+          </h1>
+        </div>
+      </section>
+
+<!--- ABOUT WHAT IS KAST -->
+<section id="whatIsKast" class="whatKast bg-light">
+      <div class="content">
+        <h1>What is Kast</h1>
+        <p>Looking for a place to watch movies, play, and hang out with friends? Hop onto Kast and start sharing experiences real-time!
+        </p>
+<p>Up to 20 people can share their screen or camera and another 100 can watch in a party. And with Kast TV, you can now stream directly from the cloud.
+        </p>
+        <a herf="#about" class="btn">OPEN KAST</a>
+      </div>
+</section>
+
+
+
+<!--- ABOUT TRY KAST TV-->
+<section id="tryKast" class="tryKast bg-light">
+  
+  <div class="content">
+    <h1>Try Kast TV</h1>
+    <p>Watch curated movies and browse content in your parties with friends, streamed directly from the cloud. Your shared TV in your virtual living room.
+    </p>
+    <span class="ifram">
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/451294380" width="940" height="529" frameborder="0" allowfullscreen></iframe>
+    </span>
+    <p>Try Kast TV Now!
+    </p>
+    <a herf="#about" class="btn">OPEN KAST</a>
+    <p><a class="textLink" href="#about"
+      >Learn more </a>
+    </p>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+    </main>
+    <!-- <div class="lotsoftext">
+
+      <footer class="item">
+        <p>Copyright &#169; 2006 The Example Company</p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="policy.html">Privacy</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+      </footer>
+    </div> -->
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.onscroll = function() {
+    if (window.pageYOffset > 100){
+      navbar.classList.remove('top');
+    } else {
+      navbar.classList.add('top');
+    }
+  }
+</script>
+
+
   </body>
 </html>

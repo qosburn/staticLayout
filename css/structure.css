@@ -1,0 +1,42 @@
+/*Buttons*/
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 60px;
+  color: var(--white);
+  background-color: var(--orange);
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 160px;
+}
+.tryKast .btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 60px;
+  color: var(--white);
+  background-color: var(--orange);
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.btn-outline {
+  cursor: pointer;
+  padding: 0px;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 2px;
+}
+
+/*FLEX ITEMS */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.flex-items > div {
+  padding: 40px;
+}
